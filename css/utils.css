@@ -221,3 +221,20 @@
 .section-padding {
   padding: 2rem 2rem 4rem;
 }
+
+/* mobile */
+@media (max-width: 768px) {
+  .flex-items {
+    flex-direction: column;
+  }
+  .teams img {
+    width: 70%;
+  }
+  .flex-columns .column {
+    flex: 100%;
+  }
+  .flex-grid .column {
+    flex: 50%;
+    padding: 0.4rem;
+  }
+}
